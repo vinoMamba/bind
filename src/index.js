@@ -1,5 +1,7 @@
-function bind() {
-    return function () {
+function bind(asThis,...agrs) {
+    const fn = this
+    return function (...args2) {
+        return fn.call(asThis,...agrs,...args2)
     };
 }
 
