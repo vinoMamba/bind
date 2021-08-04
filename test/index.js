@@ -6,7 +6,7 @@ test3('3. bind 能绑定this,且可以传递参数')
 test4('4. bind 能绑定this,可在绑定后再进行传值')
 test5('5. bind 能绑定this,可先传递一个值，再传递另外一个值')
 test6('6. bind 支持new,绑定的是undefined')
-test8('7. bind 支持new,且绑定的是是个对象')
+test8('7. bind 支持new,且绑定的是个对象')
 test7('8. bind 支持new,并且可以调用原型上的方法')
 
 
